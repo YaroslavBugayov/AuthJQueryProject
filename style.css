@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 50px;
+    padding: 0 50px;
+}
+
+.or-block {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.hr-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item {
+    margin: 5px 3px;
+    width: 100%;
+    padding: 3px;
+}
+
+p {
+    margin: 0 10px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
